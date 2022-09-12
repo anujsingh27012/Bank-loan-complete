@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="design.js">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<body>
+    <!-- ================Navbar section================= -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="bi bi-list"></i></span>
+              </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#Slide">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Reason-to-choose-Us">Why-Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#EMI-Calculator">EMI-Calculator</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#OUR-AGENTS">Agents</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#FAQ">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#BLOG">BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#CONTACT-US">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ====================Slide Bar=============== -->
+
+    <div class="conatiner-fluid" id="Slide">
+        <section class="slidebar">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner loan-slide">
+                    <div class="carousel-item active">
+
+                        <div class="One text-center px-4 pt-4 " id="GetEducation">
+                            <h1 class="text-white" data-aos="zoom-in">Get Your Education Loan</h1>
+                            <h5 class="text-white " data-aos="zoom-in">Instant Approval For Education Loan</h5>
+                            <div class="btn-main">
+                                <button class="buttons bg-primary" data-aos="zoom-in">Get Quote</button>
+                                <button class="buttons" data-aos="zoom-in" >Learn More</button>
+                            </div>
+
+                        
+                        </div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <!-- <img src="./car.jpg" class="d-block w-100" alt="..."> -->
+                        <div class="Two text-center px-5 pt-4">
+                            <h1 class="text-white" data-aos="zoom-in">Get Your Car Loan</h1>
+                            <h5 class="text-white">Instant Approval For Car Loan</h5>
+                            <div class="btn-main">
+                                <button class="buttons bg-primary" data-aos="zoom-in">Get Quote</button>
+                                <button class="buttons" data-aos="zoom-in" >Learn More</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <!-- <img src="./house.jpg" class="d-block w-100" alt="..."> -->
+                        <div class="Three text-center pt-4">
+                            <h1 class="text-white" data-aos="zoom-in">Get Your home Loan</h1>
+                            <h5 class="text-white">Instant Approval For Home Loan</h5>
+                            <div class="btn-main">
+                                <button class="buttons bg-primary" data-aos="zoom-in">Get Quote</button>
+                                <button class="buttons" data-aos="zoom-in" >Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </div>
+    <!-- =============================Reason to Choose Us================== -->
+    <div class="conatiner-fluid" id="Reason-to-choose-Us">
+        <section class="Reason">
+            <h2 class="text-center">Reason to Choose Us</h2>
+            <h5 class="text-center"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, aperiam quas
+                perferendis dolor praesentium dignissimos dolorum. Quos esse non blanditiis?</h5>
+        </section>
+        <section class="detail">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="./demo-screen-1.jpg" alt="">
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row">
+                            <i class="bi bi-bar-chart-line-fill"></i>
+                            <h3>Easy Loan Approvals</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam gravida erat sit amet nunc
+                                iaculis mattis. Vivamus aliquam, eros sed tempor lacinia, ante metus sodales libero in
+                            </p>
+                        </div>
+                        <div class="row">
+                            <i class="bi bi-alarm-fill"></i>
+                            <h3>Hassle free</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam gravida erat sit amet nunc
+                                iaculis mattis. Vivamus aliquam, eros sed tempor lacinia, ante metus sodales libero in
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row">
+                            <i class="bi bi-person-circle"></i>
+                            <h3>Fast and FREE</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam gravida erat sit amet nunc
+                                iaculis mattis. Vivamus aliquam, eros sed tempor lacinia, ante metus sodales libero in
+                            </p>
+                        </div>
+                        <div class="row">
+                            <i class="bi bi-envelope-paper-fill"></i>
+                            <h3>100% Safe and Secure</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam gravida erat sit amet nunc
+                                iaculis mattis. Vivamus aliquam, eros sed tempor lacinia, ante metus sodales libero in
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- ==============================Car Loans - Bad Credit, Good Credit, or No Credit!============= -->
+    <div class="container">
+        <section class="Car-loan">
+            <div class="row">
+                <h3 class="text-center">Car Loans - Bad Credit, Good Credit, or No Credit!</h3>
+                <p>Getting a car loan with bad credit has never been easier! At EasyLoan, we want to help you get into
+                    the car you deserve.</p>
+            </div>
+        </section>
+    </div>
+    <!-- =========================================Symbol-of-trust============= -->
+    <div class="container">
+        <div class="conatiner">
+            <section class="symbol-of-trust">
+                <div class="row justify-content-between">
+
+                    <div class="col-lg-2">
+                        <div class="box">
+                            <!-- <i class="bi bi-person-bounding-box"></i> -->
+                            <h2>500K</h2>
+                            <h4>Satisfied Clients</h4>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="box">
+                            <!-- <i class="bi bi-person-bounding-box"></i> -->
+                            <h2>550K</h2>
+                            <h4>Car Loan</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="box">
+                            <!-- <i class="bi bi-person-bounding-box"></i> -->
+                            <h2>105K</h2>
+                            <h4>Repeat Clients</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="box">
+                            <!-- <i class="bi bi-person-bounding-box"></i> -->
+                            <h2>100%</h2>
+                            <h4>Safe and Secure</h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!-- ============================================Loan Calculator================= -->
+    <div class="container-fluid" id="EMI-Calculator">
+        <div class="conatiner-fluid">
+            <section class="Loan-calculator">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="text-center">Loan-Calculator</h1>
+                        <h5 class="text-center">Calculate EMI for a loan. Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit.</h5>
+                    </div>
+                    <div class="col-lg-7">
+                        <h3>Amount</h3>
+                        <input type="range" class="form-range" id="customRange1">
+                        <h3>Duration & Month</h3>
+                        <input type="range" class="form-range" id="customRange1">
+                        <h3>Rate of Interest</h3>
+                        <input type="range" class="form-range" id="customRange1">
+                    </div>
+
+                </div>
+            </section>
+        </div>
+    </div>
+    <hr>
+    <!-- =============================================Meet Our Agents============================ -->
+    <div class="container-fluid Meet-Our-Agents-Full" id="OUR-AGENTS">
+    <div class="container-fluid my-4 py-4">
+        <section class="meet-our-agents">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3 class="text-center text-white">Meet Our Agents</h3>
+                    <h5 class="text-center text-white">Meet Our Best Agents. Our team of agents are ready to help you.
+                    </h5>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- ===============================================AgentsData======================= -->
+
+    <div class="conatiner">
+        <section class="Agents">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row justify-content-around">
+                            <div class="col-md-3 ">
+                                <div class="Agent-data">
+                                    <div class="img">
+                                        <img src="./man.jpg" class="d-block img-fluid" alt="...">
+                                        
+                                    </div>
+                                    <div class="Agents-Data-1">
+                                        <h6 class="text-white text-center">Smith</h6>
+                                        <h5 class="text-white text-center">Web Developer</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="Agent-data-1">
+                                    <div class="img">
+                                        <img src="./man2.jpg" class=" img-fluid" alt="...">
+                                        
+                                    </div>
+                                    <div class="Agents-Data-1">
+                                        <h6 class="text-white text-center">Brain Adams</h6>
+                                        <h5 class="text-white text-center">Android Developer</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="Agent-data-1">
+                                    <div class="img">
+                                        <img src="./woman.jpg" class=" img-fluid" alt="...">
+                                        
+                                    </div>
+                                    <div class="Agents-Data-1">
+                                        <h6 class="text-white text-center">Sia</h6>
+                                        <h5 class="text-white text-center">Networking</h5>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="carousel-item">
+                        <div class="row justify-content-around">
+                            <div class="col-md-3 ">
+                                <div class="Agent-data-1">
+                                    <img src="./man.jpg" class=" img-fluid" alt="...">
+                                    <div class="Agents-Data-1">
+                                        <h6 class="text-white text-center">Jordan</h6>
+                                        <h5 class="text-white text-center">Social Marketing</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="Agent-data-1">
+                                    <img src="./woman.jpg" class="d-block img-fluid" alt="...">
+                                    <div class="Agents-Data-1">
+                                        <h6 class="text-white text-center">Julius Ceaser</h6>
+                                        <h5 class="text-white text-center">Animation Developer</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="Agent-data-1">
+                                    <img src="./man2.jpg" class="d-block img-fluid" alt="...">
+                                    <div class="Agents-Data-1">
+                                        <h6 class="text-white text-center">Brain Adams</h6>
+                                        <h5 class="text-white text-center">Web Developer</h5>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </div>
+</div>
+
+
+
+
+<hr>
+    <!-- ====================================Reviews======================= -->
+    <h3 class="text-center Review-heading mb-3"> <b>Reviews</b> </h3>
+    <h5 class="text-center mb-4"><b>What our clients say about us.</b></h5> 
+    
+    <hr style="color:#0d6efd;; width: 100px; height: 2px; margin:20px auto;">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner Slider-1">
+          <div class="carousel-item active">
+            <div class="slider-review">
+                <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, velit. Ad labore voluptates fugit nam sit quos nemo fuga. Quae numquam error voluptatem quasi eius magnam suscipit sunt explicabo similique laudantium? Qui ut mollitia amet eaque enim iste, laborum ratione. Mollitia ipsam eveniet quia et iste quae impedit sequi eligendi?</P>
+                <div class="Reviewer-name">
+                    <div class="row">
+                    <div class="col-md-2 mt-3">
+                        <img src="./t3.jpg" alt="">
+                    </div>
+                    <div class="col-md-4">
+                        <span class="text-white" id="Reviewer-name-1">Dev Krishna</span>
+                        <p class="text-white">India</p>
+                    </div>
+                </div>
+            </div> 
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="slider-review">
+                <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, velit. Ad labore voluptates fugit nam sit quos nemo fuga. Quae numquam error voluptatem quasi eius magnam suscipit sunt explicabo similique laudantium? Qui ut mollitia amet eaque enim iste, laborum ratione. Mollitia ipsam eveniet quia et iste quae impedit sequi eligendi?</P>
+                <div class="Reviewer-name">
+                    <div class="row">
+                    <div class="col-md-2 p-2">
+                        <img src="./t3.jpg" alt="">
+                    </div>
+                    <div class="col-md-4">
+                        <span class=" text-white" id="Reviewer-name-2">Ryder Lothian</span>
+                        <p class="text-white">Los-Angles</p>
+                     </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="slider-review">
+                <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, velit. Ad labore voluptates fugit nam sit quos nemo fuga. Quae numquam error voluptatem quasi eius magnam suscipit sunt explicabo similique laudantium? Qui ut mollitia amet eaque enim iste, laborum ratione. Mollitia ipsam eveniet quia et iste quae impedit sequi eligendi?</P>
+                <div class="Reviewer-name">
+                    <div class="row">
+                    <div class="col-md-2 p-2">
+                        <img src="./t3.jpg" alt="">
+                    </div>
+                    <div class="col-md-4">
+                       <span class="text-white" id="Reviewer-name-3">Doony.j.Griffin</span>
+                       <p class="text-white">Canada</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    
+    <hr>
+    <!-- ===========================Questions===================== -->
+    <div class="container" id="FAQ">
+        <div class="conatiner">
+            <section class="Question">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <i class="bi bi-question-circle text-primary"></i>
+                        <H3>Ask about our low rate car loans?</H3>
+                        <h5 class="mt-4">Porttitor acese its commodo non lorem estibulum finibus urna eu efficitur non
+                            lorem acese its do remmselorem ipusm dolro sit commodo.</h5>
+                        <button class="buttons Q-button py-4 ">Ask Question</button>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Lorem ipsum dolor sit amet consectetur.
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>This is the first item's accordion body.</strong> It is shown by
+                                        default, until the collapse plugin adds the appropriate classes that we use to
+                                        style each element. These classes control the overall appearance, as well as the
+                                        showing and hiding via CSS transitions. You can modify any of this with custom
+                                        CSS or overriding our default variables. It's also worth noting that just about
+                                        any HTML can go within the <code>.accordion-body</code>, though the transition
+                                        does limit overflow.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Lorem ipsum dolor sit amet
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>This is the second item's accordion body.</strong> It is hidden by
+                                        default, until the collapse plugin adds the appropriate classes that we use to
+                                        style each element. These classes control the overall appearance, as well as the
+                                        showing and hiding via CSS transitions. You can modify any of this with custom
+                                        CSS or overriding our default variables. It's also worth noting that just about
+                                        any HTML can go within the <code>.accordion-body</code>, though the transition
+                                        does limit overflow.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Lorem ipsum dolor sit amet Lorem, ipsum dolor.
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>This is the third item's accordion body.</strong> It is hidden by
+                                        default, until the collapse plugin adds the appropriate classes that we use to
+                                        style each element. These classes control the overall appearance, as well as the
+                                        showing and hiding via CSS transitions. You can modify any of this with custom
+                                        CSS or overriding our default variables. It's also worth noting that just about
+                                        any HTML can go within the <code>.accordion-body</code>, though the transition
+                                        does limit overflow.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Lorem ipsum dolor sit.
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>This is the third item's accordion body.</strong> It is hidden by
+                                        default, until the collapse plugin adds the appropriate classes that we use to
+                                        style each element. These classes control the overall appearance, as well as the
+                                        showing and hiding via CSS transitions. You can modify any of this with custom
+                                        CSS or overriding our default variables. It's also worth noting that just about
+                                        any HTML can go within the <code>.accordion-body</code>, though the transition
+                                        does limit overflow.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+
+    <!-- ==================Blog============================ -->
+    <div class="container-fluid" id="BLOG">
+        <div class="conatiner-fluid">
+            <section class="blog">
+                <div class="row justify-content-around">
+                    <h6 class="text-center text-primary">BLOG</h6>
+                    <h3 class="text-center mx-3">Recent posts form our Blog</h3>
+                    <div class="col-lg-3">
+                        <img src="./blog-home.jpg" alt="">
+                        <h3><b>Home Loan For You</b> </h3>
+                        <p><b>By Admin on Jan 19, 2017</b></p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quod atque ut harum, porro
+                            dolorum reprehenderit quasi, quos quas veritatis iusto possimus nostrum voluptate ipsam.</p>
+                        <a href="#" class="text-center"><u>Learn more</u> </a>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <img src="./blog-car.jpg" alt="">
+                        <h3><b>Car Loan For You</b> </h3>
+                        <p><b>By Admin on Mar12, 2017</b></p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quod atque ut harum, porro
+                            dolorum reprehenderit quasi, quos quas veritatis iusto possimus nostrum voluptate ipsam.</p>
+                        <a href="#" class="text-center"><u>Learn more</u></a>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <img src="./blog-edu.jpg" alt="">
+                        <h3><b>Education Loan For You</b> </h3>
+                        <p><b>By Admin on Oct 12, 2017</b></p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quod atque ut harum, porro
+                            dolorum reprehenderit quasi, quos quas veritatis iusto possimus nostrum voluptate ipsam.</p>
+                        <a href="#" class="text-center"><u>Learn more</u></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!-- ====================================Our Patner=================== -->
+    <!-- <div class="container-fluid">
+        <section class="Our-partner">
+            <div class="row">
+                <h2 class="text-center"><b>Our Partner</b></h2>
+                <div class="col-lg-1 px-1">
+                    <img src="./1 (1).png" alt="">
+                </div>
+                <div class="col-lg-1">
+                    <img src="./1.png" alt="">
+                </div>
+                <div class="col-lg-1">
+                    <img src="./2 (1).png" alt="">
+                </div>
+                <div class="col-lg-1">
+                    <img src="./2 (2).png" alt="">
+                </div>
+                <div class="col-lg-1">
+                    <img src="./3 (1).png" alt="">
+                </div>
+                <div class="col-lg-1">
+                    <img src="./2.png" alt="">
+                </div>
+                <div class="col-lg-1">
+                    <img src="./3.png" alt="">
+                </div>
+
+            </div>
+        </section>
+    </div> -->
+
+
+    <!-- ===============Stay Connect With Us=============== -->
+    <div class="container-fluid" id="CONTACT-US">
+        <div class="container-fluid">
+            <section class="Stay-Connected">
+                <div class="row">
+                    <h2 class="text-center"><B>Stay Connected With Us</B></h2>
+                    <p class="text-center"><b>Subscribe to our weekly Newsletter and stay tuned.</b></p>
+                    <i class="bi bi-envelope-fill text-center text-primary"><span><input type="text"
+                                placeholder="Enter Your Email" id="Email"></span></i>
+                    <button type="button" class="btn btn-outline-primary text-center">Subscribe Now!</button>
+                    <ul>
+                        <li><i class="bi bi-facebook text-center"></i></li>
+                        <li><i class="bi bi-twitter text-center"></i></li>
+                        <li><i class="bi bi-google text-center"></i></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- =================================Conatct Us================= -->
+    <div class="container-fluid">
+        <section class="Contact-Us">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label"></label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Enter Your Name">
+                        <label for="exampleFormControlInput1" class="form-label"></label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Enter Your Email">
+                        <label for="exampleFormControlInput1" class="form-label"></label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Enter Your Zipcode">
+                        <label for="exampleFormControlInput1" class="form-label"></label>
+                        <input type="Number" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Enter Phone Number">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label"></label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                            placeholder="Type Message"></textarea>
+                    </div>
+                    <button type="button" class="btn">Submit</button>
+                </div>
+                <div class="col-md-4">
+                    <i class="bi bi-house-fill"></i>
+                    <h3 class="text-white">Office Location</h3> <br>
+                    <i class="bi bi-geo-alt-fill"><span class="text-white"> EasyLoan LLC <br> Washington, DC
+                            20301</span></i>
+                    <br><br>
+                    <i class="bi bi-phone text-white py-5"> <span class="text-white">Phone: 121-000-1234</span></i>
+                    <br> <br>
+                    <i class="bi bi-telegram text-white"><span class="text-white">Fax: 121-000-9876</span></i> <br><br>
+                    <i class="bi bi-envelope-paper-fill text-white"> <span class="text-white">Email:
+                            info@yourdomain.com</span></i>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- ========================Footer======================= -->
+    <div class="container-fluid">
+        <section class="footer">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="content text-center text-white">&copy;2017 EasyLoan. All Rights Reserved.</div>
+                </div>
+                <div class="content-2">
+                    <ul>
+                        <a href="#">
+                            <li class="text-white">Terms</li>
+                        </a>
+                        <a href="#">
+                            <li class="text-white">Privacy</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+    </script>
+
+    <script>
+  AOS.init({
+    offset:100,
+    duration:1000,
+  });
+</script>
+
+
+
+</body>
+
+</html>

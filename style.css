@@ -1,0 +1,437 @@
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* ===================Navbar Starts=============== */
+.navbar{
+    background-color: #0f4d8b;
+    position: fixed;
+    top: 0;
+    z-index: 9999999;
+    width: 100%;
+}
+#name
+{
+    font-size: 10px;
+}
+.bi-car-front-fill{
+    font-size:50px;
+    color:white ;
+}
+.navbar-nav
+{
+    margin-left: 30%;
+}
+button:focus:not(:focus-visible) {
+    outline: 0;
+}
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+     box-shadow: 0 !important; 
+}
+.bi-list{
+    font-size: 30px;
+    color: white;
+}
+.nav-item a
+{
+    color: white;
+}
+#navbarSupportedContent ul li {
+    padding: 5px;
+    font-size: bolder;
+}
+#navbarSupportedContent ul li a:hover{
+    color: rgb(139, 139, 6);
+}
+#Humberger
+{
+    outline: none !important;
+    border: none;
+}
+@media only screen and (max-width:500px){
+
+}
+/* =========================Slide Bar============== */
+.slidebar{
+    margin-top: 5rem;
+}
+.carousel-inner{
+    
+    position: relative;
+    z-index: 1;
+}
+.loan-slide::before{
+ content: "";
+ background-color: rgba(10, 10, 230,0.5);
+ z-index: 1;
+ position: absolute !important;
+ height: 100%;
+ width: 100%;
+
+}
+.One{
+
+    /* background: linear-gradient(90deg, rgb(219, 218, 240) 0%, rgb(131, 131, 245) 35%, rgb(187, 241, 252) 100%); */
+    background-image: url('./img1.jpg');
+    height: 70vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Two
+{
+    background-image: url('./car.jpg');
+    /* background: linear-gradient(90deg, rgb(219, 218, 240) 0%, rgb(131, 131, 245) 35%, rgb(187, 241, 252) 100%); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 100%;
+}
+.Three
+{
+    background-image: url('./house.jpg');
+    /* background: linear-gradient(90deg, rgb(219, 218, 240) 0%, rgb(131, 131, 245) 35%, rgb(187, 241, 252) 100%); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 100%;
+}
+.One h1{
+    font-size: 3.5rem;
+    z-index: 5 !important;
+    position: relative;
+}
+@media only screen and (max-width:600px) {
+    .One h1{
+        font-size: 1.5rem;
+    }
+}
+.One h5{
+    z-index: 5 !important;
+    position: relative;
+}
+.Two h1{
+    font-size: 3.5rem;
+    z-index: 5;
+    position: relative;
+}
+.Two h5{
+    z-index: 5 !important;
+    position: relative;
+}
+.Three h1{
+    font-size: 3.5rem;
+    z-index: 5;
+    position: relative;
+}
+.Three h5{
+    z-index: 5 !important;
+    position: relative;
+}
+.buttons{
+   height: 50px;
+   border-radius: 30px;
+   width: 10%;
+   z-index: 5;
+    position: relative;
+    
+}
+/* ============Reason to Choose us============ */
+.Reason{
+    margin-top: 3%;
+   
+}
+.detail img{
+    height: 80vh;
+    width: 100%;
+}
+.detail .bi{
+    font-size: 70px;
+    color: blue;
+}
+/* ===========================Car Loans - Bad Credit, Good Credit, or No Credit!====== */
+.Car-loan{
+    margin-top: 10%;
+}
+.Car-loan h3{
+    font-weight: bolder;
+    font-size: 40px;
+    color: rgb(24, 23, 23);
+}
+.Car-loan p{
+    font-size: larger;
+}
+
+/* ======================symbol-of-trust=============== */
+
+.box{
+    
+    border: 3px solid rgb(3, 3, 110);
+    border-radius: 15px 50px 30px;
+    background: #f5f7f2;
+    padding: 20px;
+    width: 200px;
+    height: 150px;;
+}
+/* ======================Loan Calculator=================== */
+.Loan-calculator{
+    margin-top: 10%;
+    background-color: #e7ebe3;
+}
+.Loan-calculator h3{
+      font-weight: bolder;
+}
+/* =======================================meet-our-agents============ */
+
+.meet-our-agents h5{
+    font-size: 15px;
+}
+.agent-slide img{
+    height: 20vh;
+
+}
+.Meet-Our-Agents-Full{
+    background-color: #2369AF;
+}
+/* ============Agents Data=========== */
+.Agents{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: #2369AF;
+   
+   
+}
+.Agents img{
+           height: 150px;
+           width: 150px;
+           border-radius: 50%;
+}
+.Agent-Data-1{
+    border-radius: 50%;
+    height: 100%;
+    display: table;
+    border:3px solid white
+    
+}
+
+
+
+/* ==================================Review============== */
+.slider-review{
+    width: 40%;
+    margin: auto;
+    
+}
+/* .carousel-control-next-icon {
+    background-image: url(./—Pngtree—arrow\ shape\ black\ simple\ icon_8186733.png);
+    border: 1px solid rgb(23, 7, 116);
+    padding: 20px;
+}
+.carousel-control-prev-icon {
+    background-image: url(./PngItem_1152830.png);
+    border: 1px solid rgb(37, 14, 143);
+    padding: 20px;
+} */
+.Review-heading
+{
+    color: rgb(1, 1, 36);
+}
+.slider-review{
+     padding: 5px;
+    border: 1px solid rgb(153, 153, 153);
+    border-radius: 10px;
+}
+
+.Reviewer-name
+{
+    background-color: #15549A;
+    border-radius: 5px;
+}
+.Reviewer-name img{
+    height: 40px;
+    width: 50px;
+    border-radius: 50%;
+}
+#Reviewer-name-1,#Reviewer-name-2,#Reviewer-name-3
+{
+    font-size: larger;
+    font-weight: bolder;
+}
+#Line{
+    background-color: #15549A;
+    height: 1px;
+    width: 30px;
+}
+
+
+
+
+
+/* ==========================Question================== */
+.Question{
+    margin-top: 7%;
+}
+.bi-question-circle{
+    font-size: 50px;
+}
+.Q-button
+{
+    border-color: blue;
+    font-size: 15px;
+    background-color: antiquewhite;
+    width: 150px;
+    height: 18%;
+}
+.accordion-header{
+    font-weight: bolder;
+}
+/* ================Blog============== */
+.blog{
+    margin-top: 5%;
+    background-color: #fafafa;
+}
+.blog h3,h1{
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(14, 14, 187);
+}
+.blog img{
+    width: 100%;
+    height: 40vh;
+    border-radius: 1%;
+}
+@media only screen and (max-width:)
+a{
+    color: blue;
+    font-size: 20px;
+    text-decoration: none;
+}
+/* =======================Our Partner================== */
+/* .Our-partner{
+    margin-top: 5%;
+    background-color: #fcf7f7;
+}
+.Our-partner img
+{
+    height: 60px;
+    width: 100%;
+    margin-left: 10%;
+} */
+/* =============Stay Connected============ */
+.Stay-Connected{
+    margin-top: 10%;
+}
+.bi-envelope-fill
+{
+    font-size:20px;
+}
+#Email
+{
+    height: 40px;
+    border: 1px solid rgb(136, 130, 130);
+    border-radius: 5px;
+}
+.Stay-Connected .btn-outline-primary{
+    font-size: larger;
+    font-weight: bolder;
+    height: 5%;
+    width: 13%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid rgb(1, 1, 39);
+    color: rgb(1, 1, 39);
+}
+.Stay-Connected .btn-outline-primary:hover
+{
+    color: white;
+    background-color:rgb(1, 1, 39) ;
+   
+}
+.Stay-Connected ul{
+   text-align: center;
+}
+
+.Stay-Connected ul li{
+    display: inline;
+    padding: 10px;
+}
+.Stay-Connected .bi-facebook{
+    font-size: 40px;
+    cursor: pointer;
+    
+}
+.Stay-Connected .bi-google{
+    font-size: 40px; 
+    cursor: pointer; 
+}
+.Stay-Connected .bi-twitter
+{
+    font-size: 40px;
+    cursor: pointer;
+}
+/* ===========================.Contact-Us============= */
+.Contact-Us
+{
+    background-color: rgb(103, 103, 143);
+}
+.Contact-Us input
+{
+    background-color: rgb(43, 43, 107);
+}
+.Contact-Us textarea{
+    background-color:rgb(40, 40, 78) ;
+}
+.Contact-Us .btn{
+    border: 1px solid white;
+    background-color:color rgb(40, 40, 78) ;
+    font-size: larger;
+}
+.Contact-Us .btn:hover{
+    background-color: rgb(5, 5, 90);
+    color: white;
+}
+.Contact-Us span{
+    font-size: 20px;
+}
+.Contact-Us .bi-house-fill{
+    font-size: 60px;
+    color: white;
+}
+.Contact-Us .bi-geo-alt-fill
+{
+    font-size: 30px;
+    color: white;
+}
+.Contact-Us .bi-phone{
+    font-size: 30px;
+}
+.Contact-Us .bi-envelope-paper-fill{
+    font-size: 30px;
+}
+.Contact-Us .bi-telegram 
+{
+    font-size: 30px;
+}
+/* ======================Footer================== */
+.footer
+{
+    background-color:rgb(40, 40, 78) ;
+}
+.footer ul{
+    text-align: center;
+}
+.footer ul li
+{
+    display: inline-block;
+    padding: 10px;
+}
+.footer ul li a
+{
+    font-size: 10px;
+}
